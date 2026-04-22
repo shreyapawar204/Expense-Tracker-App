@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set these for the current month to track your savings and budget usage."
+        android:textColor="#94A3B8"
+        android:textSize="12sp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Income (₹)"
+        android:textColor="#6D28D9"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/etIncome"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="e.g. 50000"
+        android:textColor="#1E1B4B"
+        android:inputType="numberDecimal"
+        android:background="@drawable/input_white_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monthly Spending Budget (₹)"
+        android:textColor="#6D28D9"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="6dp"/>
+
+    <EditText
+        android:id="@+id/etBudget"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="e.g. 20000"
+        android:textColor="#1E1B4B"
+        android:inputType="numberDecimal"
+        android:background="@drawable/input_white_bg"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"/>
+
+</LinearLayout>
